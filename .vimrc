@@ -9,32 +9,32 @@ set laststatus=2 " always show
 
 " Vundle - vim bundler
 " first run: git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
-Bundle 'gmarik/vundle'
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/vundle'
 
 " Core bundles
-Bundle 'xolox/vim-misc'
-"Bundle 'taglist.vim'
-"Bundle 'easytags.vim'
-Bundle 'SuperTab-continued.'
-Bundle 'basilgor/vim-autotags'
+Plugin 'xolox/vim-misc'
+"Plugin 'taglist.vim'
+"Plugin 'easytags.vim'
+Plugin 'SuperTab-continued.'
+Plugin 'basilgor/vim-autotags'
 
-Bundle 'rking/ag.vim'
-Bundle 'tpope/vim-fugitive'
+Plugin 'rking/ag.vim'
+Plugin 'tpope/vim-fugitive'
 
-Bundle 'tpope/vim-rails.git'
-Bundle 'tpope/vim-bundler'
-Bundle 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails.git'
+Plugin 'tpope/vim-bundler'
+Plugin 'vim-ruby/vim-ruby'
 
 " Tryout bundles
-Bundle 'bling/vim-airline'
-Bundle 'majutsushi/tagbar'
-Bundle 'kchmck/vim-coffee-script'
+Plugin 'bling/vim-airline'
+Plugin 'majutsushi/tagbar'
+Plugin 'kchmck/vim-coffee-script'
 
-"Bundle 'nathanaelkane/vim-indent-guides.git'
+"Plugin 'nathanaelkane/vim-indent-guides.git'
 
-Bundle 'Yggdroot/indentLine'
+Plugin 'Yggdroot/indentLine'
 
 " Tabs
 set expandtab
