@@ -1,0 +1,11 @@
+#! /bin/sh
+
+export HTTP_PROXY=http://proxy.int.f2.com.au:8080
+export HTTPS_PROXY=https://proxy.int.f2.com.au:8080
+export http_proxy=http://proxy.int.f2.com.au:8080
+export https_proxy=https://proxy.int.f2.com.au:8080
+
+RAILS_ENV=development
+
+echo 'set corp environment'
+
