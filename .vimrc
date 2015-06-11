@@ -11,18 +11,19 @@ set laststatus=2 " always show
 " first run: git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 " Core bundles
 Plugin 'xolox/vim-misc'
-"Plugin 'taglist.vim'
-"Plugin 'easytags.vim'
+Plugin 'taglist.vim'
+Plugin 'easytags.vim'
 Plugin 'SuperTab-continued.'
 Plugin 'basilgor/vim-autotags'
 
 Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-fugitive'
 
+" Ruby and Rails
 Plugin 'tpope/vim-rails.git'
 Plugin 'tpope/vim-bundler'
 Plugin 'vim-ruby/vim-ruby'
@@ -31,10 +32,13 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'bling/vim-airline'
 Plugin 'majutsushi/tagbar'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'wincent/command-t'
 
 "Plugin 'nathanaelkane/vim-indent-guides.git'
 
 Plugin 'Yggdroot/indentLine'
+
+call vundle#end()
 
 " Tabs
 set expandtab
